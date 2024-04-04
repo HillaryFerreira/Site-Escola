@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+        <div class="container">
+        <h2>Matrícula</h2>
+        <form action="https://660f2d92356b87a55c50eb37.mockapi.io/api/v1/forms" method="post">
+            <div class="form-container">
+                <h3>Informações Aluno</h3>
+                <div class="form-control">
+                    <label for="aluno-nome">Nome*</label>
+                    <input type="text" id="aluno-nome" placeholder="Nome" name="aluno-nome">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-endereco">Endereço</label>
+                    <input type="text" id="aluno-endereco" placeholder="Endereço" name="aluno-endereco">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-bairro">Bairro</label>
+                    <input type="text" id="aluno-bairro" placeholder="Bairro" name="aluno-bairro">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-cidade">Cidade</label>
+                    <input type="text" id="aluno-cidade" placeholder="Cidade" name="aluno-cidade">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-numero">Número</label>
+                    <input type="text" id="aluno-numero" placeholder="Número" name="aluno-numero">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-cep">CEP</label>
+                    <input type="text" id="aluno-cep" placeholder="CEP" name="aluno-cep">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-complemento">Complemento</label>
+                    <input type="text" id="aluno-complemento" placeholder="Complemento" name="aluno-complemento">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-estado">Estado</label>
+                    <input type="text" id="aluno-estado" placeholder="Estado" name="aluno-estado">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-telefone">Telefone</label>
+                    <input type="text" id="aluno-telefone" placeholder="Telefone" name="aluno-telefone">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-celular">Celular*</label>
+                    <input type="text" id="aluno-celular" placeholder="Celular" name="aluno-celular">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-email">E-mail*</label>
+                    <input type="email" id="aluno-email" placeholder="E-mail" name="aluno-email">
+                </div>
+                <div class="form-control">
+                    <label for="aluno-cor">Cor*</label>
+                    <select id="aluno-cor">
+                        <option value="Branca">Branca</option>
+                        <option value="Preta">Preta</option>
+                        <option value="Parda">Parda</option>
+                        <option value="Amarela">Amarela</option>
+                        <option value="Indígena">Indígena</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3>Informações Mãe</h3>
+                <div class="form-control">
+                    <label for="mae-nome">Nome*</label>
+                    <input type="text" id="mae-nome" placeholder="Nome" name="mae-nome">
+                </div>
+                <div class="form-control">
+                    <label for="mae-data-nascimento">Data de Nascimento</label>
+                    <input type="text" id="mae-data-nascimento" placeholder="Data de Nascimento" name="mae-data-nascimento">
+                </div>
+                <div class="form-control">
+                    <label for="mae-naturalidade">Naturalidade</label>
+                    <input type="text" id="mae-naturalidade" placeholder="Naturalidade" name="mae-naturalidade">
+                </div>
+                <div class="form-control">
+                    <label for="mae-instrucao">Instrução</label>
+                    <input type="text" id="mae-instrucao" placeholder="Instrução" name="mae-instrucao">
+                </div>
+                <div class="form-control">
+                    <label for="mae-profissao">Profissão</label>
+                    <input type="text" id="mae-profissao" placeholder="Profissão" name="mae-profissao">
+                </div>
+                <div class="form-control">
+                    <label for="mae-celular">Celular*</label>
+                    <input type="text" id="mae-celular" placeholder="Celular" name="mae-celular">
+                </div>
+                <div class="form-control">
+                    <label for="mae-email">E-mail*</label>
+                    <input type="email" id="mae-email" placeholder="E-mail" name="mae-email">
+                </div>
+                <div class="form-control">
+                    <label for="mae-cpf">CPF*</label>
+                    <input type="text" id="mae-cpf" placeholder="CPF" name="mae-cpf">
+                </div>
+                <div class="form-control">
+                    <label for="mae-responsavel-financeiro">Responsável Financeiro</label>
+                    <input type="radio" id="mae-responsavel-financeiro-yes" name="mae-responsavel-financeiro" value="yes">
+                    <label for="mae-responsavel-financeiro-yes">Sim</label>
+                    <input type="radio" id="mae-responsavel-financeiro-no" name="mae-responsavel-financeiro" value="no">
+                    <label for="mae-responsavel-financeiro-no">Não</label>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3>Informações Pai</h3>
+                <div class="form-control">
+                    <label for="pai-nome">Nome*</label>
+                    <input type="text" id="pai-nome" placeholder="Nome" name="pai-nome">
+                </div>
+                <div class="form-control">
+                    <label for="pai-data-nascimento">Data de Nascimento</label>
+                    <input type="text" id="pai-data-nascimento" placeholder="Data de Nascimento" name="pai-data-nascimento">
+                </div>
+                <div class="form-control">
+                    <label for="pai-naturalidade">Naturalidade</label>
+                    <input type="text" id="pai-naturalidade" placeholder="Naturalidade" name="pai-naturalidade">
+                </div>
+                <div class="form-control">
+                    <label for="pai-instrucao">Instrução</label>
+                    <input type="text" id="pai-instrucao" placeholder="Instrução" name="pai-instrucao">
+                </div>
+                <div class="form-control">
+                    <label for="pai-profissao">Profissão</label>
+                    <input type="text" id="pai-profissao" placeholder="Profissão" name="pai-profissao">
+                </div>
+                <div class="form-control">
+                    <label for="pai-celular">Celular*</label>
+                    <input type="text" id="pai-celular" placeholder="Celular" name="pai-celular">
+                </div>
+                <div class="form-control">
+                    <label for="pai-email">E-mail*</label>
+                    <input type="email" id="pai-email" placeholder="E-mail" name="pai-email">
+                </div>
+                <div class="form-control">
+                    <label for="pai-cpf">CPF*</label>
+                    <input type="text" id="pai-cpf" placeholder="CPF" name="pai-cpf">
+                </div>
+                <div class="form-control">
+                    <label for="pai-responsavel-financeiro">Responsável Financeiro</label>
+                    <input type="radio" id="pai-responsavel-financeiro-yes" name="pai-responsavel-financeiro" value="yes">
+                    <label for="pai-responsavel-financeiro-yes">Sim</label>
+                    <input type="radio" id="pai-responsavel-financeiro-no" name="pai-responsavel-financeiro" value="no">
+                    <label for="pai-responsavel-financeiro-no">Não</label>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3>Informações do Curso</h3>
+                <div class="form-control">
+                    <label for="curso-nome">Nome do Curso Escolhido*</label>
+                    <input type="text" id="curso-nome" placeholder="Nome do Curso Escolhido" name="curso-nome">
+                </div>
+                <div class="form-control">
+                    <label for="curso-data-ingresso">Data de Ingresso*</label>
+                    <input type="text" id="curso-data-ingresso" placeholder="Data de Ingresso" name="curso-data-ingresso">
+                </div>
+                <div class="form-control">
+                    <label for="curso-valor">Valor*</label>
+                    <input type="text" id="curso-valor" placeholder="Valor" name="curso-valor">
+                </div>
+                <div class="form-control">
+                    <label for="curso-parcelas">Forma de Pagamento (Qtde de Parcelas)*</label>
+                    <select id="curso-parcelas">
+                        <option value="1">1 parcela</option>
+                        <option value="2">2 parcelas</option>
+                        <option value="3">3 parcelas</option>
+                        <option value="4">4 parcelas</option>
+                        <option value="5">5 parcelas</option>
+                        <option value="6">6 parcelas</option>
+                        <option value="7">7 parcelas</option>
+                        <option value="8">8 parcelas</option>
+                        <option value="9">10 parcelas</option>
+                        <option value="10">11 parcelas</option>
+                        <option value="11">11 parcelas</option>
+                        <option value="12">12 parcelas</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
